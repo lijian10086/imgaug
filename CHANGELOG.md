@@ -6,6 +6,12 @@
   maximum RAM demands).
 * Increased `max_distance` thresholds for `almost_equals()`, `exterior_almost_equals()` and `coords_almost_equals()` in `Polygon` and `LineString` from `1e-6` to `1e-4`.
   This should fix false-negative problems related to float inaccuracies.
+* Added module `augmenters.pooling`.
+    * Added `augmenters.pooling._AbstractPoolingBase`.
+    * Added `augmenters.pooling.AveragePooling`.
+    * Added `augmenters.pooling.MaxPooling`.
+    * Added `augmenters.pooling.MinPooling`.
+    * Added `augmenters.pooling.MedianPooling`.
 
 ## Fixes
  
