@@ -1131,4 +1131,5 @@ or `A=[0.0, 0.5, 1.0]` to sample randomly either `0.0` or `0.5` or `1.0` per ima
 | Snowflakes(D, DU, FS, FSU, A, S) | Adds snowflakes with density `D`, density uniformity `DU`, snowflake size `FS`, snowflake size uniformity `FSU`, falling angle `A` and speed `S` to an image. One to three layers of snowflakes are added, hence the values should be stochastic. |
 | SnowflakesLayer(D, DU, FS, FSU, A, S, BSF, BSL) | Adds a single layer of snowflakes to an image. See augmenter `Snowflakes`. `BSF` and `BSL` control a gaussian blur applied to the snowflakes. |
 ##李剑备注
-https://blog.csdn.net/qq_31610789/article/details/88154948 图像增强库imgaug的目标检测数据使用笔记
+1、https://blog.csdn.net/qq_31610789/article/details/88154948 图像增强库imgaug的目标检测数据使用笔记
+2、https://blog.csdn.net/u012897374/article/details/80142744 imgaug学习笔记
