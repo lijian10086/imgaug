@@ -1133,3 +1133,4 @@ or `A=[0.0, 0.5, 1.0]` to sample randomly either `0.0` or `0.5` or `1.0` per ima
 ##李剑备注
 1、https://blog.csdn.net/qq_31610789/article/details/88154948 图像增强库imgaug的目标检测数据使用笔记
 2、https://blog.csdn.net/u012897374/article/details/80142744 imgaug学习笔记
+3、https://blog.csdn.net/Mr_health/article/details/82667538 目标检测数据扩增
